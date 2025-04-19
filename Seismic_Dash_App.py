@@ -1,4 +1,4 @@
-!pip install pandas numpy plotly dash dash-bootstrap-components pyngrok
+# !pip install pandas numpy plotly dash dash-bootstrap-components pyngrok
 
 import dash
 from dash import dcc, html, Input, Output, State, ctx, dash_table
@@ -162,4 +162,5 @@ def update_dashboard(n, time_period, min_mag, region):
 
 
 if __name__ == '__main__':
-  app.run(debug=True, mode='external')
+#   app.run(debug=True, mode='external')
+  app.run(debug=True)
